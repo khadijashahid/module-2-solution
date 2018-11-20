@@ -1,0 +1,67 @@
+#box1{
+	background-color: pink;
+	font-style: italic;
+	font-size: 20px;
+		padding:10px;
+		border:10px solid black;
+		margin:10px;
+		width:400px;
+		box-sizing: border-box;
+		float: left;
+		}
+#box2{
+	background-color: pink;
+	font-style: italic;
+	font-size: 20px;
+		padding:10px;
+		border:10px solid black;
+		margin:10px;
+		width:400px;
+		box-sizing: border-box;
+		float: left;
+	
+}
+
+#box3{
+	background-color: pink;
+	font-style: italic;
+	font-size: 20px;
+		padding:10px;
+		border:10px solid black;
+		margin:10px;
+		width:400px;
+		box-sizing: border-box;
+		float: left;
+			
+}
+
+@media(min-width: 992px ) and (max-width:1199px)
+{
+#box1{
+	box-sizing: 100%;
+	width: 33.33%;
+	
+}
+#box2{
+	box-sizing: 100%;
+	width: 33.33%;
+}
+#box3{
+	box-sizing: 100%;
+	width: 33.33%;
+}
+}
+@media( min-width: 768px) and (max-width: 991px)
+{
+	#box1{
+	box-sizing: 100%;
+}
+#box2{
+	box-sizing: 100%;
+	
+}
+#box3{
+	 box-sizing: 100%;
+	 width: 100%
+}
+}
